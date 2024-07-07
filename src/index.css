@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .primary-btn{
+        @apply inline-block rounded-md
+        bg-primary hover:bg-primary/70 
+        duration-200 py-2 px-6 text-white
+    }
+    .outline-btn{
+        @apply inline-block rounded-md
+        bg-transparent hover:bg-primary/70 border-primary border dark:hover:bg-primary/70
+        duration-200 py-2 px-6 text-primary dark:text-primary
+    }
+}
+
+.mask-cursor {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .mask-cursor::before {
+    content: '';
+    position: absolute;
+    top: -100%;
+    left: -100%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.5) 10%, rgba(0, 0, 0, 0.5) 50%);
+    transform: translate(25%, 25%);
+  }
+
+  body {
+    background-color: #333; /* Dark background */
+    color: white; /* Light text */
+  }
+  
