@@ -1,6 +1,6 @@
-import { BiPhoneCall } from 'react-icons/bi';
-import DarkMode from './Darkmode';
-import ball from '../../assets/ball1.png';
+import { BiPhoneCall } from "react-icons/bi";
+import DarkMode from "./Darkmode";
+import ball from "/Images/logo_putih.png";
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const Navlinks = [
@@ -26,28 +26,28 @@ const NavBarComponents = () => {
     <>
       <nav className="shadow-md w-full dark:bg-dark dark:text-white">
         <div className="container mx-auto h-20">
-          <div className="flex items-center justify-between py-4 h-full">
+          <div className="flex items-center justify-between py-3 h-full">
             <div className="items-center gap-2 hidden md:flex">
-              <BiPhoneCall className="mr-2 text-2xl text-primary animate-pulse group-hover:scale-105 duration" />
-              <span>+628123456789</span>
+              <BiPhoneCall className=" text-2xl text-primary animate-pulse group-hover:scale-105 duration" />
+              <span>Sportify</span>
             </div>
             <div className="flex items-center justify-center flex-grow">
               <img src={ball} alt="ball" className="w-16 sm:w-24" />
             </div>
-            <div className="items-center gap-2 hidden md:flex">
-              <ul className="flex gap-4">
+            <div className="items-center gap-1 hidden md:flex font-thin">
+              <ul className="flex gap-2">
                 {Navlinks.map(({ id, name, link }) => (
                   <li key={id}>
                     <a
                       href={link}
-                      className="inline-block text-lg font-semibold hover:text-primary duration-200"
+                      className="inline-block text-xs font-thin hover:text-primary duration-200"
                     >
                       {name}
                     </a>
                   </li>
                 ))}
               </ul>
-              <div className='cursor-pointer p-5'>
+              <div className="cursor-pointer p-1">
                 <DarkMode />
               </div>
             </div>
