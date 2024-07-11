@@ -26,13 +26,17 @@ const NavBarComponents = () => {
     <>
       <nav className="shadow-md w-full dark:bg-dark dark:text-white">
         <div className="container mx-auto h-20">
-          <div className="flex items-center justify-between py-3 h-full">
+          <div className="flex items-center justify-between py-1 h-full">
             <div className="items-center gap-2 hidden md:flex">
               <BiPhoneCall className=" text-2xl text-primary animate-pulse group-hover:scale-105 duration" />
               <span>Sportify</span>
             </div>
             <div className="flex items-center justify-center flex-grow">
-              <img src={ball} alt="ball" className="w-16 sm:w-24" />
+              <img
+                src={ball}
+                alt="ball"
+                className=" w-10 sm:24 bg-black rounded-lg dark:bg-primary"
+              />
             </div>
             <div className="items-center gap-1 hidden md:flex font-thin">
               <ul className="flex gap-2">
