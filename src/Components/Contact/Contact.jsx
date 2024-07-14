@@ -9,7 +9,7 @@ const Contact = () => {
              Your body is a reflection of who you are</h1>
           </div>
           <div className="text-center grid place-items-center">
-            <button className="primary-btn">Contact Us</button>
+            <button className="">Contact Us</button>
           </div>
         </div>
       </div>
