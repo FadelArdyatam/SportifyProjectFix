@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer components {
-<<<<<<< HEAD
+
   .primary-btn {
     @apply inline-block rounded-md bg-primary
     hover:bg-primary/50 duration-200 py-2 px-6 text-white;
@@ -12,17 +12,7 @@
     @apply inline-block rounded-md border border-primary
     hover:bg-primary hover:text-white text-primary py-2 px-6 duration-200;
   }
+
+
 }
-=======
-    .primary-btn {
-        @apply inline-block rounded-md
-        bg-primary hover:bg-primary/50
-        duration-200 py-2 px-6 text-white;
-    }
-    .outline-btn {
-        @apply inline-block rounded-md border border-primary
-        hover:bg-primary hover:text-white text-primary
-        duration-200 py-2 px-6 ;
-    }
-}
->>>>>>> 3155a02140a9ecdd73c5df0d9fe05baf2a72ce39
+
