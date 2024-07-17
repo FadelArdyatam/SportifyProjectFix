@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start">
           <div className="mb-8 md:mb-0 text-center md:text-left">
-            <img src="/Images/logo.png" alt="Logo" className="h-10 mb-4 mx-auto md:mx-0" />
+            <img src="/Images/SPORT3.png" alt="Logo" className="h-10 mb-4 mx-auto md:mx-0" />
             <p className="max-w-xs mx-auto md:mx-0">Making the world a better place through constructing elegant hierarchies.</p>
             <div className="flex justify-center md:justify-start space-x-4 mt-4">
               <a href="#" className="hover:text-primary"><FaFacebookF className="h-6 w-6" /></a>
